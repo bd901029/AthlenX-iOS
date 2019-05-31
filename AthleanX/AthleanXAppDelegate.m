@@ -10,7 +10,6 @@
 #import "CoreAudio.h"
 #import "VCIntro.h"
 #import "VCMain.h"
-#import "SplashVC.h"
 
 @implementation AthleanXAppDelegate
 
@@ -127,9 +126,6 @@
 	VCIntro *intro = [VCIntro instance];
 //	[self.navigationController presentViewController:intro animated:YES completion:nil];
 	[self.navigationController pushViewController:intro animated:NO];
-	
-	SplashVC *splash = [SplashVC instance];
-	[self.navigationController presentViewController:splash animated:YES completion:nil];
 	
 //	[self test];
 	

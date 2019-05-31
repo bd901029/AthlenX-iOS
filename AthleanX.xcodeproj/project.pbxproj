@@ -607,9 +607,10 @@
 		458F04AD1809593F0095AAD0 /* MLTableAlertShadowMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 458F04A31809593F0095AAD0 /* MLTableAlertShadowMask@2x.png */; };
 		458F04AE1809593F0095AAD0 /* MLTableAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 458F04A51809593F0095AAD0 /* MLTableAlert.m */; };
 		458F04B018095B060095AAD0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458F04AF18095B060095AAD0 /* QuartzCore.framework */; };
-		8B2897E722A058BD00B50151 /* SplashVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2897E522A058BD00B50151 /* SplashVC.m */; };
-		8B2897E822A058BD00B50151 /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B2897E622A058BD00B50151 /* SplashVC.xib */; };
 		8B2897EC22A05A2C00B50151 /* splash_bkgnd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2897EB22A05A2C00B50151 /* splash_bkgnd.png */; };
+		8B87C7BC22A1769A009F4104 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B87C7BB22A1769A009F4104 /* Images.xcassets */; };
+		8B87C7BE22A17738009F4104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B87C7BD22A17738009F4104 /* LaunchScreen.storyboard */; };
+		8B87C7C022A177A1009F4104 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B87C7BF22A177A1009F4104 /* splash.png */; };
 		9C05011417D232CF0012CE99 /* intro_iPhone5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C05011117D232CF0012CE99 /* intro_iPhone5@2x.png */; };
 		9C05011517D232CF0012CE99 /* intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C05011217D232CF0012CE99 /* intro.png */; };
 		9C05011617D232CF0012CE99 /* intro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C05011317D232CF0012CE99 /* intro@2x.png */; };
@@ -1408,10 +1409,10 @@
 		458F04A41809593F0095AAD0 /* MLTableAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTableAlert.h; sourceTree = "<group>"; };
 		458F04A51809593F0095AAD0 /* MLTableAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTableAlert.m; sourceTree = "<group>"; };
 		458F04AF18095B060095AAD0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		8B2897E422A058BD00B50151 /* SplashVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashVC.h; sourceTree = "<group>"; };
-		8B2897E522A058BD00B50151 /* SplashVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashVC.m; sourceTree = "<group>"; };
-		8B2897E622A058BD00B50151 /* SplashVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
 		8B2897EB22A05A2C00B50151 /* splash_bkgnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_bkgnd.png; sourceTree = "<group>"; };
+		8B87C7BB22A1769A009F4104 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = 6PackFitness/Images.xcassets; sourceTree = "<group>"; };
+		8B87C7BD22A17738009F4104 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B87C7BF22A177A1009F4104 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		952187D45C59CD748576CB20 /* libPods-AthleanX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AthleanX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C05011117D232CF0012CE99 /* intro_iPhone5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "intro_iPhone5@2x.png"; sourceTree = "<group>"; };
 		9C05011217D232CF0012CE99 /* intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro.png; sourceTree = "<group>"; };
@@ -2459,6 +2460,9 @@
 		2CD92E1E14162D0F003AD279 = {
 			isa = PBXGroup;
 			children = (
+				8B87C7BD22A17738009F4104 /* LaunchScreen.storyboard */,
+				8B87C7BB22A1769A009F4104 /* Images.xcassets */,
+				8B87C7BF22A177A1009F4104 /* splash.png */,
 				9C379B5B17D123810081F5FB /* Default.png */,
 				9C379B5C17D123810081F5FB /* Default@2x.png */,
 				9C379B5917D122BC0081F5FB /* Default-568h@2x.png */,
@@ -2531,9 +2535,6 @@
 				9CF4DFC0173FE34300A5C8C1 /* VCIntro_iPhone5.xib */,
 				2CD92E63141633C5003AD279 /* Workout */,
 				1A6D02D716856D3100847A76 /* XMLReader */,
-				8B2897E422A058BD00B50151 /* SplashVC.h */,
-				8B2897E522A058BD00B50151 /* SplashVC.m */,
-				8B2897E622A058BD00B50151 /* SplashVC.xib */,
 			);
 			path = AthleanX;
 			sourceTree = "<group>";
@@ -3230,7 +3231,6 @@
 				2CC3C4A7143317EA00228EC2 /* EN28_CycloneTwists_SideToCenter60.wav in Resources */,
 				2CC3C4A8143317EA00228EC2 /* EN29_Knockouts30.wav in Resources */,
 				2CC3C4A9143317EA00228EC2 /* EN29_Knockouts60.wav in Resources */,
-				8B2897E822A058BD00B50151 /* SplashVC.xib in Resources */,
 				2CC3C4AA143317EA00228EC2 /* EN30_Uppercuts30.wav in Resources */,
 				2CC3C4AB143317EA00228EC2 /* EN30_Uppercuts60.wav in Resources */,
 				2CC3C4AC143317EA00228EC2 /* EN31_Knucklebreakers30.wav in Resources */,
@@ -3391,6 +3391,7 @@
 				2CB96408143465C800AAF8EF /* fl.jpeg in Resources */,
 				2CB9640D143472A300AAF8EF /* done_BTN.png in Resources */,
 				2C6138911434998E00717328 /* VCAnatomySample.xib in Resources */,
+				8B87C7BC22A1769A009F4104 /* Images.xcassets in Resources */,
 				2CEDFE981434A61E00DF5C04 /* done_garay.png in Resources */,
 				2CEDFE9B1434A7BA00DF5C04 /* reshuffle_BTN.png in Resources */,
 				2CEDFEA01434B4DB00DF5C04 /* maserVaultBTN__.png in Resources */,
@@ -3459,6 +3460,7 @@
 				15449147145ECEA30007DFB8 /* Icon-72.png in Resources */,
 				15449148145ECEA30007DFB8 /* Icon-Small-50.png in Resources */,
 				15449149145ECEA30007DFB8 /* Icon-Small.png in Resources */,
+				8B87C7BE22A17738009F4104 /* LaunchScreen.storyboard in Resources */,
 				1544914A145ECEA30007DFB8 /* Icon-Small@2x.png in Resources */,
 				1544914E145ECEA30007DFB8 /* Icon.png in Resources */,
 				1544914F145ECEA30007DFB8 /* Icon@2x.png in Resources */,
@@ -3524,6 +3526,7 @@
 				153C8CBC1467F04F00E76659 /* 59.mp4 in Resources */,
 				153C8CBD1467F04F00E76659 /* 60.mp4 in Resources */,
 				153C8CBE1467F04F00E76659 /* 61.mp4 in Resources */,
+				8B87C7C022A177A1009F4104 /* splash.png in Resources */,
 				153C8CBF1467F04F00E76659 /* 62.mp4 in Resources */,
 				153C8CC01467F04F00E76659 /* 63.mp4 in Resources */,
 				153C8CC11467F04F00E76659 /* 64.mp4 in Resources */,
@@ -3813,7 +3816,6 @@
 				9C50C0CD169EFBAD00C3EA40 /* IAPPerchaseViewController.m in Sources */,
 				9CE040B416A5536E00D28E49 /* SampleViewController.m in Sources */,
 				9C062F5016B96FF1008BCDE5 /* HTMLNode.m in Sources */,
-				8B2897E722A058BD00B50151 /* SplashVC.m in Sources */,
 				9C062F5116B96FF1008BCDE5 /* HTMLParser.m in Sources */,
 				9C062F5F16B98488008BCDE5 /* PickerAlertView.m in Sources */,
 			);
@@ -3895,6 +3897,8 @@
 			baseConfigurationReference = F01FA565ADE0690E98F75A0C /* Pods-AthleanX.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -3921,6 +3925,8 @@
 			baseConfigurationReference = BF3150E2EF62137B596D3A2C /* Pods-AthleanX.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;

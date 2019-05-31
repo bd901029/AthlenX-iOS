@@ -62,6 +62,8 @@
 	[self.view sendSubviewToBack:m_vBkgnd];
 	
 	[self performSelector:@selector(gotoMainScreen) withObject:nil afterDelay:2];
+	
+	self.navigationController.navigationBarHidden = YES;
 }
 
 - (void) moviePlayBackDidFinish:(NSNotification*)notification
