@@ -1,0 +1,31 @@
+//
+// Prefix header for all source files of the 'AthleanX' target in the 'AthleanX' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+	#import <Foundation/Foundation.h>
+#endif
+
+
+#import <math.h>
+
+
+#define DEGREES_TO_RADIANS(angle) ((angle) / 180.0f * M_PI)
+#define RADIANS_TO_DEGREES(angle) ((angle) / M_PI * 180.0f)
+
+#define IS_IPHONE5 ( (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height == 568) ? YES : NO )
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IOS7 ([[UIDevice currentDevice].systemVersion floatValue] >= 7.0f)
+
+#define NIB_NAME(x)	( IS_IPHONE ? (IS_IPHONE5 ? [NSString stringWithFormat:@"%@_iPhone5", x] : x ) : [NSString stringWithFormat:@"%@_iPad", x] )
+
+#define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+
+#define DOCUMENT_PATH		([NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0])

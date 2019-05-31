@@ -1,0 +1,16 @@
+PODS:
+  - SBJson (5.0.0)
+
+DEPENDENCIES:
+  - SBJson
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SBJson
+
+SPEC CHECKSUMS:
+  SBJson: 73c848dc34be51fda282fab12bda6c426f5ead08
+
+PODFILE CHECKSUM: 5cc6d22e49fdd9fa59bbd1611bd4408b2742a0f2
+
+COCOAPODS: 1.6.2
